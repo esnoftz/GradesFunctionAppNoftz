@@ -1,0 +1,568 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXContainerItemProxy section */
+		04E3EE8A2C9B03DC00950EB1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 04E3EE682C9B03DB00950EB1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 04E3EE6F2C9B03DB00950EB1;
+			remoteInfo = GradesFunctionAppNoftz;
+		};
+		04E3EE942C9B03DC00950EB1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 04E3EE682C9B03DB00950EB1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 04E3EE6F2C9B03DB00950EB1;
+			remoteInfo = GradesFunctionAppNoftz;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		04E3EE702C9B03DB00950EB1 /* GradesFunctionAppNoftz.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GradesFunctionAppNoftz.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		04E3EE892C9B03DC00950EB1 /* GradesFunctionAppNoftzTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GradesFunctionAppNoftzTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		04E3EE932C9B03DC00950EB1 /* GradesFunctionAppNoftzUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GradesFunctionAppNoftzUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		04E3EE9B2C9B03DC00950EB1 /* Exceptions for "GradesFunctionAppNoftz" folder in "GradesFunctionAppNoftz" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = 04E3EE6F2C9B03DB00950EB1 /* GradesFunctionAppNoftz */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		04E3EE722C9B03DB00950EB1 /* GradesFunctionAppNoftz */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				04E3EE9B2C9B03DC00950EB1 /* Exceptions for "GradesFunctionAppNoftz" folder in "GradesFunctionAppNoftz" target */,
+			);
+			path = GradesFunctionAppNoftz;
+			sourceTree = "<group>";
+		};
+		04E3EE8C2C9B03DC00950EB1 /* GradesFunctionAppNoftzTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = GradesFunctionAppNoftzTests;
+			sourceTree = "<group>";
+		};
+		04E3EE962C9B03DC00950EB1 /* GradesFunctionAppNoftzUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = GradesFunctionAppNoftzUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		04E3EE6D2C9B03DB00950EB1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04E3EE862C9B03DC00950EB1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04E3EE902C9B03DC00950EB1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		04E3EE672C9B03DB00950EB1 = {
+			isa = PBXGroup;
+			children = (
+				04E3EE722C9B03DB00950EB1 /* GradesFunctionAppNoftz */,
+				04E3EE8C2C9B03DC00950EB1 /* GradesFunctionAppNoftzTests */,
+				04E3EE962C9B03DC00950EB1 /* GradesFunctionAppNoftzUITests */,
+				04E3EE712C9B03DB00950EB1 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		04E3EE712C9B03DB00950EB1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				04E3EE702C9B03DB00950EB1 /* GradesFunctionAppNoftz.app */,
+				04E3EE892C9B03DC00950EB1 /* GradesFunctionAppNoftzTests.xctest */,
+				04E3EE932C9B03DC00950EB1 /* GradesFunctionAppNoftzUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		04E3EE6F2C9B03DB00950EB1 /* GradesFunctionAppNoftz */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 04E3EE9C2C9B03DC00950EB1 /* Build configuration list for PBXNativeTarget "GradesFunctionAppNoftz" */;
+			buildPhases = (
+				04E3EE6C2C9B03DB00950EB1 /* Sources */,
+				04E3EE6D2C9B03DB00950EB1 /* Frameworks */,
+				04E3EE6E2C9B03DB00950EB1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				04E3EE722C9B03DB00950EB1 /* GradesFunctionAppNoftz */,
+			);
+			name = GradesFunctionAppNoftz;
+			packageProductDependencies = (
+			);
+			productName = GradesFunctionAppNoftz;
+			productReference = 04E3EE702C9B03DB00950EB1 /* GradesFunctionAppNoftz.app */;
+			productType = "com.apple.product-type.application";
+		};
+		04E3EE882C9B03DC00950EB1 /* GradesFunctionAppNoftzTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 04E3EEA12C9B03DC00950EB1 /* Build configuration list for PBXNativeTarget "GradesFunctionAppNoftzTests" */;
+			buildPhases = (
+				04E3EE852C9B03DC00950EB1 /* Sources */,
+				04E3EE862C9B03DC00950EB1 /* Frameworks */,
+				04E3EE872C9B03DC00950EB1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				04E3EE8B2C9B03DC00950EB1 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				04E3EE8C2C9B03DC00950EB1 /* GradesFunctionAppNoftzTests */,
+			);
+			name = GradesFunctionAppNoftzTests;
+			packageProductDependencies = (
+			);
+			productName = GradesFunctionAppNoftzTests;
+			productReference = 04E3EE892C9B03DC00950EB1 /* GradesFunctionAppNoftzTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		04E3EE922C9B03DC00950EB1 /* GradesFunctionAppNoftzUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 04E3EEA42C9B03DC00950EB1 /* Build configuration list for PBXNativeTarget "GradesFunctionAppNoftzUITests" */;
+			buildPhases = (
+				04E3EE8F2C9B03DC00950EB1 /* Sources */,
+				04E3EE902C9B03DC00950EB1 /* Frameworks */,
+				04E3EE912C9B03DC00950EB1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				04E3EE952C9B03DC00950EB1 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				04E3EE962C9B03DC00950EB1 /* GradesFunctionAppNoftzUITests */,
+			);
+			name = GradesFunctionAppNoftzUITests;
+			packageProductDependencies = (
+			);
+			productName = GradesFunctionAppNoftzUITests;
+			productReference = 04E3EE932C9B03DC00950EB1 /* GradesFunctionAppNoftzUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		04E3EE682C9B03DB00950EB1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1600;
+				LastUpgradeCheck = 1600;
+				TargetAttributes = {
+					04E3EE6F2C9B03DB00950EB1 = {
+						CreatedOnToolsVersion = 16.0;
+					};
+					04E3EE882C9B03DC00950EB1 = {
+						CreatedOnToolsVersion = 16.0;
+						TestTargetID = 04E3EE6F2C9B03DB00950EB1;
+					};
+					04E3EE922C9B03DC00950EB1 = {
+						CreatedOnToolsVersion = 16.0;
+						TestTargetID = 04E3EE6F2C9B03DB00950EB1;
+					};
+				};
+			};
+			buildConfigurationList = 04E3EE6B2C9B03DB00950EB1 /* Build configuration list for PBXProject "GradesFunctionAppNoftz" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 04E3EE672C9B03DB00950EB1;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 04E3EE712C9B03DB00950EB1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				04E3EE6F2C9B03DB00950EB1 /* GradesFunctionAppNoftz */,
+				04E3EE882C9B03DC00950EB1 /* GradesFunctionAppNoftzTests */,
+				04E3EE922C9B03DC00950EB1 /* GradesFunctionAppNoftzUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		04E3EE6E2C9B03DB00950EB1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04E3EE872C9B03DC00950EB1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04E3EE912C9B03DC00950EB1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		04E3EE6C2C9B03DB00950EB1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04E3EE852C9B03DC00950EB1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04E3EE8F2C9B03DC00950EB1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		04E3EE8B2C9B03DC00950EB1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 04E3EE6F2C9B03DB00950EB1 /* GradesFunctionAppNoftz */;
+			targetProxy = 04E3EE8A2C9B03DC00950EB1 /* PBXContainerItemProxy */;
+		};
+		04E3EE952C9B03DC00950EB1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 04E3EE6F2C9B03DB00950EB1 /* GradesFunctionAppNoftz */;
+			targetProxy = 04E3EE942C9B03DC00950EB1 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		04E3EE9D2C9B03DC00950EB1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = GradesFunctionAppNoftz/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = clc.GradesFunctionAppNoftz;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		04E3EE9E2C9B03DC00950EB1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = GradesFunctionAppNoftz/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = clc.GradesFunctionAppNoftz;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		04E3EE9F2C9B03DC00950EB1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		04E3EEA02C9B03DC00950EB1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		04E3EEA22C9B03DC00950EB1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = clc.GradesFunctionAppNoftzTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GradesFunctionAppNoftz.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/GradesFunctionAppNoftz";
+			};
+			name = Debug;
+		};
+		04E3EEA32C9B03DC00950EB1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = clc.GradesFunctionAppNoftzTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GradesFunctionAppNoftz.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/GradesFunctionAppNoftz";
+			};
+			name = Release;
+		};
+		04E3EEA52C9B03DC00950EB1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = clc.GradesFunctionAppNoftzUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = GradesFunctionAppNoftz;
+			};
+			name = Debug;
+		};
+		04E3EEA62C9B03DC00950EB1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = clc.GradesFunctionAppNoftzUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = GradesFunctionAppNoftz;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		04E3EE6B2C9B03DB00950EB1 /* Build configuration list for PBXProject "GradesFunctionAppNoftz" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04E3EE9F2C9B03DC00950EB1 /* Debug */,
+				04E3EEA02C9B03DC00950EB1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		04E3EE9C2C9B03DC00950EB1 /* Build configuration list for PBXNativeTarget "GradesFunctionAppNoftz" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04E3EE9D2C9B03DC00950EB1 /* Debug */,
+				04E3EE9E2C9B03DC00950EB1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		04E3EEA12C9B03DC00950EB1 /* Build configuration list for PBXNativeTarget "GradesFunctionAppNoftzTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04E3EEA22C9B03DC00950EB1 /* Debug */,
+				04E3EEA32C9B03DC00950EB1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		04E3EEA42C9B03DC00950EB1 /* Build configuration list for PBXNativeTarget "GradesFunctionAppNoftzUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04E3EEA52C9B03DC00950EB1 /* Debug */,
+				04E3EEA62C9B03DC00950EB1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 04E3EE682C9B03DB00950EB1 /* Project object */;
+}
