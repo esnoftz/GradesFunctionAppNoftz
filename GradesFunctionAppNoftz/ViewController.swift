@@ -74,7 +74,7 @@ class ViewController: UIViewController {
     
     func percentAndLetterGrade(earned: Double, total: Double) -> String {
         
-        
+        // do this
         
     }
     
