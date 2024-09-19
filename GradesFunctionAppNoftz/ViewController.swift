@@ -72,9 +72,12 @@ class ViewController: UIViewController {
         }
     }
     
-    func percentAndLetterGrade(earned: Double, total: Double) -> String {
+    func percentAndLetterGrade(earned: Double, total: Double) -> (String, String) {
         
-        // do this
+        var percent = earned/total
+        var letterGrade = percentGrade(percent: percent)
+        return ("Percent: \(percent)%", letterGrade)
+        
         
     }
     
