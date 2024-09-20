@@ -74,9 +74,10 @@ class ViewController: UIViewController {
     
     func percentAndLetterGrade(earned: Double, total: Double) -> (String, String) {
         
-        var percent = earned/total
+        var percent = (earned/total)*10000.0
+        percent = (percent.rounded())/100.0
         var letterGrade = percentGrade(percent: percent)
-        return ("Percent: \(percent)%", letterGrade)
+        return ("\(percent)", letterGrade)
         
         
     }
@@ -111,7 +112,9 @@ class ViewController: UIViewController {
         
         if let earnedPoints = Double(earnedTextField2.text!) {
             if let totalPoints = Double(totalTextField2.text!) {
-                percentAndLetterGrade(earned: earnedPoints, total: totalPoints)
+                var answer = percentAndLetterGrade(earned: earnedPoints, total: totalPoints)
+                print(answer)
+                errorLabel3.text = "Percent: \(answer.0)% \n\(answer.1)"
             } else {
                 errorLabel3.text = errorFunction()
             }
